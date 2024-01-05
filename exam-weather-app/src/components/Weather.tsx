@@ -84,8 +84,8 @@ const Weather = () => {
   };
 
   return (
-    <GlobalStyles>
-      <FlexComponent>
+    <GlobalStyles >
+      <FlexComponent >
         <IconHolder>
           <FaWind size="20px" color="#5b759a" />
         </IconHolder>
