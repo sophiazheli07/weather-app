@@ -1,4 +1,40 @@
-# Getting Started with Create React App
+# Weather Application 
+
+A structured, type-safe weather application built with React and TypeScript. This project demonstrates a clear separation of concerns by isolating API logic, styled components, and UI elements.
+<br>
+<br>
+
+* * * * 
+
+The project is organized as follows: 
+
+* * * * 
+<br>
+<br>
+src/components/: Contains modular UI components like LocationSearch.tsx and the main Weather.tsx display.
+
+src/services/:
+
+  weatherService.ts: Centralized logic for API fetching and data transformation.
+
+  styled.tsx: Housing for Styled Components, keeping the JSX clean and the styling logic reusable.
+
+  src/App.tsx: The main entry point coordinating state between the search functionality and weather display.
+<br>
+<br> 
+* * * *
+Tech-Stack:
+* * * * 
+
+Frontend: React (TypeScript)
+<br>
+Styling: Styled Components (defined in services/styled.tsx)
+<br>
+API: OpenWeatherMap (via weatherService.ts)
+<br>
+Testing: Jest & React Testing Library (App.test.tsx)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
